@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+</head>
+<style>
+  div{
+    /*border:1px solid red;*/
+  }
+</style>
+<body>
+
+  <div class="container">
+  <h1> 加了form-horizontal會把整個block水平補滿 </h1>
+  <h2>第1 row 沒有加</h2>
+
+    <!-- 1st row start -->
+          <div class="row">
+
+                  <div class="col-lg-6">
+                    <div class="row">
+                      <form class="">
+
+                          <div class="form-group">
+                              <label class="col-sm-2">Name</label>
+                              <div class="input-group col-sm-10">
+                                  <span class="input-group-btn">
+                                    <button class="btn btn-default" type="button">GOGO</button>
+                                  </span>
+                                  <input type="text" class="form-control">
+                              </div>
+                          </div>
+                      </form>
+
+                    </div>
+                  </div><!-- /.col-lg-6 -->
+                  <div class="col-lg-6">
+                  <div class="input-group">
+                    <input type="text" class="form-control">
+                    <span class="input-group-btn">
+                      <button class="btn btn-default" type="button">Go!</button>
+                    </span>
+                  </div><!-- /input-group -->
+                  </div><!-- /.col-lg-6 -->
+
+            </div>
+<!-- 1nd row end -->
+
+<h2>第2 row 加了 class="form-horizontal"</h2>
+
+<!--  2nd row start -->
+          <div class="row">
+          <div class="col-lg-6">
+            <div class="row">
+              <form class="form-horizontal">
+
+                  <div class="form-group">
+                      <label class="col-sm-2">Name</label>
+                      <div class="input-group col-sm-10">
+                          <span class="input-group-btn">
+                            <button class="btn btn-default" type="button">GOGO</button>
+                          </span>
+                          <input type="text" class="form-control">
+                      </div>
+                  </div>
+              </form>
+
+            </div>
+          </div><!-- /.col-lg-6 -->
+          <div class="col-lg-6">
+          <div class="input-group">
+            <input type="text" class="form-control">
+            <span class="input-group-btn">
+              <button class="btn btn-default" type="button">Go!</button>
+            </span>
+          </div><!-- /input-group -->
+          </div><!-- /.col-lg-6 -->
+          </div><!-- /.row -->
+<!--  2nd row end -->
+
+
+</div>      <!-- container end -->
+
+</body>
+</html>

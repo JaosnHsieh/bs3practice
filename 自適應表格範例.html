@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+</head>
+<style>
+  div{
+    border:1px solid red;
+  }
+</style>
+<body>
+
+  <div class="container">
+
+  <h5 class="text-center">底下放了兩個table 一個是responsive的 一個沒有 改變螢幕寬度看差異</h1>
+
+
+  <p><strong>這個沒有用div.table-responsive包起來</strong></p>
+
+    <table class="table">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Table heading</th>
+        <th>Table heading</th>
+        <th>Table heading</th>
+        <th>Table heading</th>
+        <th>Table heading</th>
+        <th>Table heading</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+
+  <p><strong>這個table有用div.table-responsive包起來 小螢幕的時候會有水平的scrollbar cell裡面的字不會往下掉</strong></p>
+    <div class="table-responsive">
+      <table class="table">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Table heading</th>
+          <th>Table heading</th>
+          <th>Table heading</th>
+          <th>Table heading</th>
+          <th>Table heading</th>
+          <th>Table heading</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Table cell</td>
+          <td>Table cell</td>
+          <td>Table cell</td>
+          <td>Table cell</td>
+          <td>Table cell</td>
+          <td>Table cell</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Table cell</td>
+          <td>Table cell</td>
+          <td>Table cell</td>
+          <td>Table cell</td>
+          <td>Table cell</td>
+          <td>Table cell</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Table cell</td>
+          <td>Table cell</td>
+          <td>Table cell</td>
+          <td>Table cell</td>
+          <td>Table cell</td>
+          <td>Table cell</td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+</head>
+<style>
+  div{
+    /*border:1px solid red;*/
+  }
+</style>
+<body>
+
+  <div class="container">
+
+
+
+<h2> label文字和input 分兩row的</h2>
+            <div class="row">
+
+                            <form>
+                                <div class="form-group">
+                                    <label for="">Name</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                            </form>
+            </div>
+
+
+
+
+    <h2> label文字和input 水平的</h2>
+
+              <div class="row">
+                    <form class="">
+
+                        <div class="form-group">
+                            <label class="col-sm-2">Name</label>  <!--水平上設定寬度 col-sm-X -->
+
+                            <div class="input-group col-sm-10">    <!--水平上設定寬度 col-sm-X -->
+
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                    </form>
+              </div>
+
+
+
+    <h2> label文字和input 水平 且 在input前面有帶按鈕的</h2>
+
+              <div class="row">
+                <form class="">
+
+                    <div class="form-group">
+                        <label class="col-sm-2">Name</label>  <!--水平上設定寬度 col-sm-X -->
+
+                        <div class="input-group col-sm-10">    <!--水平上設定寬度 col-sm-X -->
+                            <span class="input-group-btn">
+                              <button class="btn btn-default" type="button">GOGO</button>
+                            </span>
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                </form>
+              <div class="row">
+
+
+
+</div>      <!-- container end -->
+
+</body>
+</html>

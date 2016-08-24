@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+</head>
+<style>
+  div{
+    /*border:1px solid red;*/
+  }
+</style>
+<body>
+
+  <div class="container">
+
+  <h3>用div.form-group 包起來的input之間 會有適當的marin</h3>
+
+  <div class="row">
+    <h3>這邊沒有用div.form-group包起來</h3>
+    <input type="text" class="form-control" id="name" value='33'>
+    <input type="text" class="form-control" id="name" value='33'>
+  </div>
+  <h3>底下用了2個div.form-group分別包起來</h3>
+
+  <div class="row">
+
+    <div class="form-group">
+      <input class="form-control" type="text" value="1223">
+    </div>
+
+
+    <div class="form-group">
+          <input class="form-control" type="text" value="1223">
+    </div>
+
+  </div>
+
+
+</div>      <!-- container end -->
+
+</body>
+</html>
